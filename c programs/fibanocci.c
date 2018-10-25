@@ -3,7 +3,7 @@ int fib(int);
 void main()
         {
         int i,n;
-        printf("enter the limit: \n");
+        printf("\nenter the limit: \n");
         scanf("%d",&n);
         for(i=1;i<=n;i++)
         printf("%d\n",fib(i));
